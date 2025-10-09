@@ -2,9 +2,10 @@
 	import { T as Threlte } from '@threlte/core';
 	import * as THREE from 'three';
 	import Geometry from './Geometry.svelte';
-	import { ContactShadows, Environment, interactivity } from '@threlte/extras';
+	import { ContactShadows, Environment, interactivity, transitions } from '@threlte/extras';
 
 	interactivity();
+	transitions();
 </script>
 
 <Threlte.PerspectiveCamera
@@ -32,7 +33,7 @@
 />
 
 <!-- Sphere -->
-<Geometry position={[-1.4, 2, -4]} rate={0.6} geometry={new THREE.DodecahedronGeometry(1.5, 10)} />
+<Geometry position={[-1.4, 2, -4]} rate={0.6} geometry={new THREE.DodecahedronGeometry(1.5, 0)} />
 
 <!-- Doughnut -->
 <Geometry
