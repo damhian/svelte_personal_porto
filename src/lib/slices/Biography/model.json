@@ -35,7 +35,7 @@
             "placeholder": ""
           }
         },
-        "button_linke": {
+        "button_link": {
           "type": "Link",
           "config": {
             "label": "Button Link",

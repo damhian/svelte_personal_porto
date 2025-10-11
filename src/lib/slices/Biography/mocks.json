@@ -24,17 +24,7 @@
 				"value": "deeply",
 				"type": "Text"
 			},
-			"button_linke": {
-				"key": "18bcf42e-b611-4610-9152-9ab366a5fc31",
-				"__TYPE__": "LinkContent",
-				"value": {
-					"__TYPE__": "ExternalLink",
-					"url": "https://slicemachine.dev",
-					"text": "captured"
-				}
-			},
 			"avatar": {
-				"__TYPE__": "ImageContent",
 				"origin": {
 					"id": "main",
 					"url": "https://images.unsplash.com/photo-1607582278038-6bebbd4d7b72",
@@ -53,7 +43,18 @@
 					"background": "transparent"
 				},
 				"alt": "negative",
+				"credits": null,
+				"__TYPE__": "ImageContent",
 				"thumbnails": {}
+			},
+			"button_link": {
+				"__TYPE__": "LinkContent",
+				"key": "5d0de2ca-04fe-405e-aa8b-5ce8f7c203e5",
+				"value": {
+					"__TYPE__": "ExternalLink",
+					"url": "http://twitter.com",
+					"text": "this"
+				}
 			}
 		},
 		"items": []
