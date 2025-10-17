@@ -1,7 +1,7 @@
 {
 	"format": "page",
-	"id": "blogpost",
-	"label": "BlogPost",
+	"id": "project",
+	"label": "Project",
 	"repeatable": true,
 	"status": true,
 	"json": {
@@ -15,7 +15,7 @@
 			"title": {
 				"type": "Text",
 				"config": {
-					"label": "Title",
+					"label": "title",
 					"placeholder": ""
 				}
 			},
@@ -39,10 +39,10 @@
 				"fieldset": "Slice Zone",
 				"config": {
 					"choices": {
-						"image_block": {
+						"rich_text": {
 							"type": "SharedSlice"
 						},
-						"rich_text": {
+						"image_block": {
 							"type": "SharedSlice"
 						}
 					}

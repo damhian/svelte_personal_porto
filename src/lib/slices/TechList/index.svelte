@@ -3,7 +3,6 @@
 	import Bounded from '$lib/components/Bounded.svelte';
 	import Heading from '$lib/components/Heading.svelte';
 	import type { Content } from '@prismicio/client';
-	import type { SliceComponentProps } from '@prismicio/svelte';
 	import { gsap } from 'gsap';
 	import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
 

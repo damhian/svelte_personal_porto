@@ -4,7 +4,6 @@
 	import { PrismicImage } from '@prismicio/svelte';
 	import clsx from 'clsx';
 	import gsap from 'gsap';
-	import { components } from '..';
 
 	export let image: ImageField;
 	let className: string = '';

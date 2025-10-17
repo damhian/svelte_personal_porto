@@ -3,7 +3,7 @@
 	import Button from '$lib/components/Button.svelte';
 	import Heading from '$lib/components/Heading.svelte';
 	import type { Content } from '@prismicio/client';
-	import { PrismicImage, PrismicRichText, type SliceComponentProps } from '@prismicio/svelte';
+	import { PrismicRichText, type SliceComponentProps } from '@prismicio/svelte';
 	import Avatar from './Avatar.svelte';
 
 	type Props = SliceComponentProps<Content.BiographySlice>;
