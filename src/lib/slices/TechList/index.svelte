@@ -55,7 +55,7 @@
 
 	{#each slice.primary.item as { tech_color, tech_name }}
 		<div
-			class="tech-row mb-8 flex items-center justify-center gap-4 text-slate-700"
+			class="tech-row mb-8 flex items-center justify-center gap-4 text-slate-700 transform -rotate-2"
 			aria-label={tech_name || undefined}
 		>
 			{#each Array(15) as _, index}
