@@ -83,6 +83,13 @@
 			duration: 1.3
 		});
 
+		gsap.to('.hover-reveal', {
+			opacity: currentIndex === undefined ? 0 : 1,
+			visibility: 'visible',
+			ease: 'power3.out',
+			duration: 4
+		});
+
 		lastMoustPos = mousePos;
 	};
 
@@ -132,6 +139,6 @@
 
 <div
 	class="hover-reveal pointer-events-none absolute left-0 top-0 -z-10 h-[320px] w-[220px] rounded-lg
-  bg-cover bg-center opacity-100 transition-[background] duration-300"
+  bg-cover bg-center opacity-0 transition-[background] duration-300"
 	style={currentIndex === undefined ? '' : `background-image: url(${contentImages[currentIndex]})`}
 ></div>
