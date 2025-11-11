@@ -14,6 +14,11 @@
 	let component: HTMLElement;
 
 	onMount(() => {
+		const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+		if (prefersReducedMotion) {
+			return;
+		}
+
 		const tl = gsap.timeline({
 			scrollTrigger: {
 				trigger: component,
